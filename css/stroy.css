@@ -1,0 +1,119 @@
+.story .banner{
+	height: 4.82rem;
+}
+.story h2{
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: #4e549b;
+	margin-top: 0.35rem;
+}
+.story .slogan{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0.2rem;
+	margin-top: 0.4rem;
+}
+.story .slogan .box{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.2rem 0.3rem;
+	background: url(../img/border-bg-p4.png)no-repeat center center;
+	background-size: 100% 100%;
+}
+.story .slogan .box p{
+	font-size: 12px;
+	color: #444444;
+	line-height: 24px;
+	text-indent: 0.32rem;
+}
+.stroy-list{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0.2rem;
+	margin-top: 0.55rem;
+}
+.stroy-list li{
+	position: relative;
+	width: 100%;
+	height: 2.62rem;
+	background: url(../img/border-bg-p5.png)no-repeat right center;
+	background-size: auto 100%;
+	margin-bottom: 0.6rem;
+}
+.stroy-list li::after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.stroy-list li .text{
+	float: right;
+	width: 3.25rem;
+	height: 2.02rem;
+	box-sizing: border-box;
+	padding-right: 0.35rem;
+	overflow: hidden;
+}
+.stroy-list li .text h3{
+	font-size: 14px;
+	color: #d4b275;
+	font-weight: bold;
+	margin-top: 0.42rem;
+}
+.stroy-list li .text h4{
+	font-size: 16px;
+	color: #4e549b;
+	font-weight: bold;
+}
+.stroy-list li .text h5{
+	text-align: right;
+	font-size: 8px;
+	color: #4e549b;
+	font-weight: bold;
+}
+.stroy-list li .read-line{
+	float: left;
+	width: 100%;
+	height: 0.6rem;
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 0.34rem;
+	overflow: hidden;
+}
+.stroy-list li .read-line p{
+	font-size: 12px;
+	color: #fefefe;
+	line-height: 0.6rem ;
+}
+.stroy-list li .read-line p .icon{
+	display: inline-block;
+	width: 0.38rem;
+	height: 0.38rem;
+	margin-left: 0.16rem ;
+	vertical-align: middle;
+	font-size: 0;
+	animation: huxi 3s ease infinite 0s both;
+	-webkit-animation: huxi 3s ease infinite 0s both;
+}
+.stroy-list li .pic{
+	position: absolute;
+	width: 3.47rem;
+	height: 2.53rem;
+	left: 0.03rem;
+	bottom: 0;
+}
+.stroy-list li:nth-child(1) .read-line{
+	background: #6b7bb9;
+}
+.stroy-list li:nth-child(2) .read-line{
+	background: #bfc400;
+}
+.stroy-list li:nth-child(3) .read-line{
+	background: #d4b275;
+}
+.stroy-list li:nth-child(4) .read-line{
+	background: #6b7bb9;
+}
+

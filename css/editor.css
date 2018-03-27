@@ -1,0 +1,128 @@
+.editor h2{
+	width: 100%;
+	height: 0.96rem;
+	line-height: 0.96rem;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #6b7cb9;
+}
+.editor .slogan{
+	width: 100%;
+	padding: 0 0.3rem;
+	margin: 0.3rem 0;
+}
+.editor .slogan p{
+	text-indent: 0.16rem;
+	font-size: 12px;
+	color: #444;
+	line-height: 24px;
+}
+.editor-list{
+	width: 100%;
+}
+.editor-list li{
+	position: relative;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.editor-list li .pic-wrapper{
+	position: absolute;
+	left: 0;
+	top: 0;
+    z-index: 2;
+	width: 2.3rem;
+	height: 3.02rem;
+}
+.pic-color{
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	width: 4rem;
+	height: 2.6rem;
+	left: -1.8rem;
+	border-radius: 60%;
+	background: #3C4E99;
+	transform: rotate(40deg);
+}
+.pic-wrapper .pic{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.editor-list li .text{
+	margin-left: 0.64rem;
+	width: 6.55rem;
+	height: auto;
+}
+.editor-list li .text h3{
+	width: 4.6rem;
+	height: 0.65rem;
+	text-indent: 1.5rem;
+	line-height: 0.65rem;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 0.1rem;
+}
+.editor-list li .text h3 span{
+	font-size: 14px;
+	margin-left: 0.2rem;
+}
+.editor-list li .text .box{
+	margin-top: -0.5rem;
+	margin-left: 0.6rem;
+	box-sizing: border-box;
+	border: 0.03rem solid #3C4E99;
+	width: 5.7rem;
+	height: auto;
+	border-radius: 0.2rem;
+	padding: 0.8rem 0.3rem 0.5rem 1.2rem;
+	z-index: -1;
+}
+.editor-list li .text .box p{
+	font-size: 12px;
+	line-height: 24px;
+}
+.editor-list li:nth-child(1) .pic-color{
+	background: #3C4E99;
+}
+.editor-list li:nth-child(1) .text .box{
+	border: 0.03rem solid #3C4E99;
+}
+.editor-list li:nth-child(1) .text h3{
+	background: #3C4E99;
+	
+}
+.editor-list li:nth-child(2) .pic-color{
+	background: #bfc400;
+}
+.editor-list li:nth-child(2) .text .box{
+	border: 0.03rem solid #bfc400;
+}
+.editor-list li:nth-child(2) .text h3{
+	background: #bfc400;
+	
+}
+.editor-list li:nth-child(3) .pic-color{
+	background: #d4b275;
+}
+.editor-list li:nth-child(3) .text .box{
+	border: 0.03rem solid #d4b275;
+}
+.editor-list li:nth-child(3) .text h3{
+	background: #d4b275;
+	
+}
+.editor-list li:nth-child(4) .pic-color{
+	background: #6b7bb9;
+}
+.editor-list li:nth-child(4) .text .box{
+	border: 0.03rem solid #6b7bb9;
+}
+.editor-list li:nth-child(4) .text h3{
+	background: #6b7bb9;
+	
+}

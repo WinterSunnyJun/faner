@@ -1,0 +1,64 @@
+.storycon{
+	width: 100%;
+	height: auto;
+	background: url(../img/stroy-bg.jpg)no-repeat center center;
+	background-size: 100% auto;
+}
+.storycon .title{
+	width: 100%;
+	box-sizing: border-box;
+	padding-right: 0.52rem;
+	margin-top: 0.5rem;
+}
+.storycon .title .box{
+	position: relative;
+	width: 5.36rem;
+	height: 0.76rem;
+	background: #6b7bb9;
+}
+.storycon .title .box::after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 0.76rem #FFFFFF solid;
+	border-left: 0.38rem  transparent solid;
+	right: 0;
+	top: 0;
+}
+.storycon .title .box h3{
+	color: #fefefe;
+	font-size: 28px;
+	text-indent: 0.32rem;
+	font-weight: bold;
+}
+.storycon .title h5{
+	color: #4e549b;
+	font-size: 32px;
+	text-indent: 1.52rem;
+	font-weight: bold;
+}
+.storycon .title p{
+	text-align: right;
+	font-size: 13px;
+	color: #4e549b;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+.storycon .con{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0.45rem;
+	margin-top: 0.2rem;
+}
+.storycon .con p{
+	font-size: 12px;
+	line-height: 24px;
+	text-indent: 0.32rem;
+	color: #444444;
+	margin-bottom: 0.24rem;
+}
+.storycon .con .pic{
+	width: 100%;
+}

@@ -1,0 +1,40 @@
+.collect{
+	width: 100%;
+}
+.collect ul{
+	margin-top: 0.5rem;
+}
+.collect ul li{
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+.collect ul li .pic{
+	width: 100%;
+	height: auto;
+}
+.collect ul li .btn{
+	width: 100%;
+	height: 0.58rem;
+	background: url(../img/collect-btnbt.png)no-repeat center center;
+	background-size: 100%;
+	padding: 0 0.3rem;
+}
+.collect ul li .btn .icon{
+	float: right;
+	width: 0.38rem;
+	height: 0.38rem;
+	font-size: 0;
+	vertical-align: middle;
+	margin-top: 0.1rem;
+	animation: huxi 5s ease infinite 0s both;
+	-webkit-animation: huxi 5s ease infinite 0s both;
+}
+.collect ul li .btn p{
+	float: right;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 0.58rem;
+	color: #FFFFFF;
+	margin-right: 0.15rem;
+	
+}

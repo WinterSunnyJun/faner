@@ -1,0 +1,260 @@
+.club .banner{
+	height: 5.62rem;
+	margin-top: 0.06rem;
+}
+.club .slogan{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0.2rem;
+	margin-top: 0.4rem;
+}
+.club .slogan .box{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.2rem 0.3rem 0.2rem 0.4rem;
+	background: url(../img/border-bg-p4.png)no-repeat center center;
+	background-size: 100% 100%;
+}
+.club .slogan .box p{
+	font-size: 12px;
+	color: #444444;
+	line-height: 24px;
+}
+.club .slogan .box p span{
+	color: #3C4E99;
+	font-weight: bold;
+}
+.club h2{
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: #4e549b;
+	margin-top: 0.2rem;
+}
+.club > .title{
+	text-align: center;
+	font-size: 16px;
+	color: #4e549b;
+	font-weight: bold;
+	margin: 0.37rem 0 0.48rem;
+}
+.club-qs-list{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0.35rem;
+	background: url(../img/p7-xinbg.png)no-repeat 5.12rem top;
+}
+.club-qs-list > li{
+	width: 100%;
+	margin-bottom: 0.3rem;
+}
+.club-qs-list li > .title{
+	position: relative;
+	height: 0.75rem;
+}
+.club-qs-list li .title .yuan{
+	position: absolute;
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50%;
+	box-shadow: 0.01rem 0.01rem 0 #9fade4; 
+}
+.club-qs-list li:nth-child(1) .title .yuan{
+	border: 0.12rem solid #3C4E99;
+}
+.club-qs-list li:nth-child(2) .title .yuan{
+	border: 0.12rem solid #d4b275;
+}
+.club-qs-list li:nth-child(3) .title .yuan{
+	border: 0.12rem solid #bfc400;
+}
+.club-qs-list li .title .box{
+	position: absolute;
+	width: 4.5rem;
+	height: 0.45rem;
+	border-top-left-radius: 0.225rem;
+	border-bottom-left-radius: 0.225rem;
+	left: 0.15rem;
+	top: 0.15rem;
+	z-index: -1;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 0.45rem;
+	text-indent: 0.7rem;
+}
+.club-qs-list li:nth-child(1) .title .box{
+	background: #3C4E99;
+}
+.club-qs-list li:nth-child(2) .title .box{
+	background: #d4b275;
+}
+.club-qs-list li:nth-child(3) .title .box{
+	background: #bfc400;
+}
+.club-qs-list li .title .box:after{
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 0.225rem solid #FFFFFF;
+	border-left: 0.225rem solid transparent;
+	top: 0;
+	right: 0;
+	display: block;
+}
+.club-qs-list li .title .box:after{
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-bottom: 0.225rem solid #FFFFFF;
+	border-left: 0.225rem solid transparent;
+	bottom: 0;
+	right: 0;
+	display: block;
+}
+.club-qs-list li ol{
+	width: 100%;
+}
+.club-qs-list li ol:after{
+	content: '';
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.club-qs-list li:nth-child(1) ol li{
+	float: left;
+	width: 50%;
+	margin: 0.18rem 0;
+}
+.club-qs-list li:nth-child(1) ol li:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.club-qs-list li ol li .checkbox img{
+	display: block;
+}
+.club-qs-list li ol li .checkbox.active{
+	background: url(../img/disc-bg.png)no-repeat center center;
+	background-size: 100%;
+}
+.club-qs-list li:nth-child(1) ol li .checkbox{
+	display: block;
+	float: left;
+	width: 0.29rem;
+	height: 0.29rem;
+	font-size: 0;
+	margin-right: 0.08rem;
+}
+.club-qs-list li:nth-child(1) ol li .checkitem{
+	display: block;
+	float: left;
+	font-size: 12px;
+	
+}
+.club-qs-list li:nth-child(2) ol li{
+	width: 100%;
+	margin-top: 0.18rem;
+}
+.club-qs-list li:nth-child(2) ol li .title .checkbox{
+	display: block;
+	float: left;
+	width: 0.29rem;
+	height: 0.29rem;
+	font-size: 0;
+	margin-right: 0.08rem;
+}
+.club-qs-list li:nth-child(2) ol li .title{
+	height: auto;
+}
+.club-qs-list li:nth-child(2) ol li .title h3{
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+}
+.club-qs-list li:nth-child(2) ol li h5{
+	font-size: 12px;
+	text-indent: 0.37rem;
+	margin-top: 0.08rem;
+}
+.club-qs-list li:nth-child(3) ol li{
+	float: left;
+	width: 25%;
+	margin: 0.3rem 0;
+}
+.club-qs-list li:nth-child(3) ol li:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.club-qs-list li:nth-child(3) ol li .checkbox{
+	display: block;
+	float: left;
+	width: 0.29rem;
+	height: 0.29rem;
+	font-size: 0;
+	margin-right: 0.08rem;
+}
+.club-qs-list li:nth-child(3) ol li .checkitem{
+	display: block;
+	float: left;
+	font-size: 12px;
+	
+}
+.message{
+	width: 100%;
+	background: #f0e4cf;
+	margin-top: 0.18rem;
+}
+.message .title{
+	width: 3.8rem;
+	height: 1.62rem;
+}
+.message-con{
+	width: 100%;
+	padding: 0 0.42rem;
+	height: 2rem;
+	font-size: 12px;
+	line-height: 0.44rem;
+}
+.message textarea{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 0.4rem;
+	background: url(../img/line-bg.png)repeat-y center center;
+	background-size: 100%;
+	margin: 0.3rem auto 0;
+}
+.club-sub{
+	display: block;
+	width: 2.35rem;
+	height: 0.53rem;
+	text-align: center;
+	line-height: 0.53rem;
+	border: 0.04rem solid #c1aa80;
+	border-radius: 0.1rem;
+	margin: 0.36rem auto;
+	color: #896b37;
+	font-weight: bold;
+	font-size: 12px;
+}
+.reader{
+	width: 100%;
+	background: #e8dbc4 url(../img/reader-bg.png)no-repeat center bottom;
+	background-size: 100%;
+	height: 5.12rem;
+	overflow: hidden;
+}
+.reader P{
+	width: 5.78rem;
+	margin: 0.9rem auto 0;
+	font-size: 14px;
+	line-height: 24px;
+}
