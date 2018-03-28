@@ -45,7 +45,7 @@
 	display: -webkit-flex;
 	justify-content: center;
 	align-items: center;
-	border-right: 0.01rem dashed #CCCCCC;
+	border-right: 0.02rem dashed #CCCCCC;
 }
 .header .navlist li:last-child{
 	border-right: none;
@@ -64,6 +64,10 @@
 .sj-swiper{
 	position: relative;
 }
+
+.swiper-slide img{
+	height: auto;
+}
 .swiper-pagination-bullet{
 	width: 0.16rem;
 	height: 0.16rem;
@@ -77,17 +81,21 @@
 }
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
 	font-size: 0;
-	bottom: 0.15rem;
+	bottom: 5%;
 }
 .indexbannerpic{
 	position: absolute;
 	width: 100%;
 	left: 0;
-	bottom: 0.5rem;
+	bottom: 10%;
 	z-index: 2;
 }
 .index-menu{
 	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 5;
 }
 .index-menu li{
 	float: left;

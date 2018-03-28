@@ -22,7 +22,7 @@
 				</a>
 			</div>
 			<div class="logo">
-				<img src="img/logo.png"/>
+				<a href="index.html"><img src="img/logo.png"/></a>
 			</div>
 			<div class="nav">
 				<img src="img/top-nav-btn.png"/>
@@ -95,8 +95,13 @@
 				<div class="sub-photo">
 					<h2>照片上传<span>(照片需小于5M)</span></h2>
 					<div class="photo-box">
-						<input class="photo-btn" type="file" name="" id="" value="" />
+						<input class="photo-btn" type="file" name="" id="chooseImage" value="" />
 					</div>
+					<div class="photo-showbox">
+						<img class="pic-show" id="cropedBigImg"/>
+						<div class="close"><img src="img/close.png"/></div>
+					</div>
+					<div style="clear: both;"></div>
 					<div class="photo-notes">
 						<div class="info-label">
 							*照片注释 Remarks
@@ -112,5 +117,32 @@
 		<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				
+				$('#chooseImage').on('change',function(){  
+					$('.photo-showbox').show();
+			        var filePath = $(this).val(),         //获取到input的value，里面是文件的路径  
+			            fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),  
+			            src = window.URL.createObjectURL(this.files[0]); //转成可以在本地预览的格式  
+			              
+			        // 检查是否是图片  
+			        if( !fileFormat.match(/.png|.jpg|.jpeg/) ) {  
+			            error_prompt_alert('上传错误,文件格式必须为：png/jpg/jpeg');  
+			            return;    
+			        }  
+			    
+			        src = window.URL.createObjectURL(this.files[0]);
+			        $('#cropedBigImg').attr('src',src);  
+			    });  
+			    
+			    
+			    $('.photo-showbox .close').click(function(){
+			    	$('.photo-showbox').hide();
+			    })
+			    
+			})
+			
+		</script>
 	</body>
 </html>

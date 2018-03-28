@@ -50,6 +50,8 @@ $(function(){
 	//首页布局
 	var WW = $(window).width();
 	var HH = $(window).height();
+	var imgW = $('.swiper-slide img').width();
+	var imgH = $('.swiper-slide img').height();
 	var indexBanH = $('.sj-swiper').height();
 	var topH = $('.header').height();
 	indexBanH = HH - WW - topH;
@@ -90,8 +92,10 @@ $(function(){
 		if ($(this).hasClass('active')) {
 			$(this).removeClass('active');
 		} else{
-			$(this).addClass('active');
+			$(this).addClass('active').parent().siblings().find('.checkbox').removeClass('active');
+				$(this).addClass('active').parent('.title').parent().siblings().find('.checkbox').removeClass('active');
 		}
 	})
+	
 	 
 })

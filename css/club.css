@@ -142,6 +142,10 @@
 	background: url(../img/disc-bg.png)no-repeat center center;
 	background-size: 100%;
 }
+.checkbox2.active{
+	background: url(../img/disc-bg.png)no-repeat center center;
+	background-size: 100%;
+}
 .club-qs-list li:nth-child(1) ol li .checkbox{
 	display: block;
 	float: left;
@@ -161,6 +165,14 @@
 	margin-top: 0.18rem;
 }
 .club-qs-list li:nth-child(2) ol li .title .checkbox{
+	display: block;
+	float: left;
+	width: 0.29rem;
+	height: 0.29rem;
+	font-size: 0;
+	margin-right: 0.08rem;
+}
+.checkbox2{
 	display: block;
 	float: left;
 	width: 0.29rem;
